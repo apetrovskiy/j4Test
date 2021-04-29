@@ -100,6 +100,7 @@ tasks.test {
         // TODO: remove this one if not needed
         testLogging.showStandardStreams = true
     }
+    maxParallelForks = 3
 //    useJUnitPlatform()
 //    // TODO: remove this one if not needed
 //    testLogging.showStandardStreams = true

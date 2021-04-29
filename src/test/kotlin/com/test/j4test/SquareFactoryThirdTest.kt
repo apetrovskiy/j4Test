@@ -1,34 +1,34 @@
 package com.test.j4test
 
+import com.test.j4test.Hooks.Companion.AT_MOST_SECONDS
+import com.test.j4test.Hooks.Companion.THIRD_CLASS_FIRST_METHOD
+import com.test.j4test.Hooks.Companion.THIRD_CLASS_SECOND_METHOD
+import org.awaitility.Awaitility
 import org.junit.Test
-import org.junit.jupiter.api.parallel.Execution
-import org.junit.jupiter.api.parallel.ExecutionMode
+import java.time.Duration
 
-@Execution(ExecutionMode.CONCURRENT)
 class SquareFactoryThirdTest {
     @Test
     fun fifthTest() {
         val square = buildSquare(5)
-//        Awaitility.await()
-//            .atMost(Duration.ofSeconds(AT_MOST_SECONDS))
-//            .until {
-//                println(Thread.currentThread().getName() + SECOND_CLASS_FIRST_METHOD)
-//                false
-//            }
-        println(square)
-        println(Thread.currentThread().getName() + Hooks.SECOND_CLASS_FIRST_METHOD)
+        Awaitility.await()
+            .atMost(Duration.ofSeconds(AT_MOST_SECONDS))
+            .until {
+                println(square)
+                Hooks.printCurrentThreadName(THIRD_CLASS_FIRST_METHOD)
+                false
+            }
     }
 
     @Test
     fun sixthTest() {
         val square = buildSquare(6)
-//        Awaitility.await()
-//            .atMost(Duration.ofSeconds(AT_MOST_SECONDS))
-//            .until {
-//                println(Thread.currentThread().getName() + SECOND_CLASS_SECOND_METHOD)
-//                false
-//            }
-        println(square)
-        println(Thread.currentThread().getName() + Hooks.SECOND_CLASS_SECOND_METHOD)
+        Awaitility.await()
+            .atMost(Duration.ofSeconds(AT_MOST_SECONDS))
+            .until {
+                println(square)
+                Hooks.printCurrentThreadName(THIRD_CLASS_SECOND_METHOD)
+                false
+            }
     }
 }
