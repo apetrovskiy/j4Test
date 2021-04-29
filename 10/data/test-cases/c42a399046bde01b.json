@@ -1,0 +1,104 @@
+{
+  "uid" : "c42a399046bde01b",
+  "name" : "fifthTest",
+  "fullName" : "com.test.j4test.SquareFactoryThirdTest.fifthTest",
+  "historyId" : "1eb4e9391e3d02ace3b127a4109fd489",
+  "time" : {
+    "start" : 1619717475370,
+    "stop" : 1619717479391,
+    "duration" : 4021
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az278-574"
+  }, {
+    "name" : "thread",
+    "value" : "1789@fv-az278-574.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.test.j4test.SquareFactoryThirdTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.j4test.SquareFactoryThirdTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "fifthTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.test.j4test.SquareFactoryThirdTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "7c84c9e6319244db",
+        "reportUrl" : "https://apetrovskiy.github.io/j4Test/8//#testresult/7c84c9e6319244db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619717294831,
+          "stop" : 1619717298913,
+          "duration" : 4082
+        }
+      }, {
+        "uid" : "15591e15bd5e0629",
+        "reportUrl" : "https://apetrovskiy.github.io/j4Test/9//#testresult/15591e15bd5e0629",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619717283983,
+          "stop" : 1619717288079,
+          "duration" : 4096
+        }
+      }, {
+        "uid" : "13e1a434bb18363c",
+        "reportUrl" : "https://apetrovskiy.github.io/j4Test/7//#testresult/13e1a434bb18363c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619716920929,
+          "stop" : 1619716924959,
+          "duration" : 4030
+        }
+      }, {
+        "uid" : "49b0a86bea407912",
+        "reportUrl" : "https://apetrovskiy.github.io/j4Test/6//#testresult/49b0a86bea407912",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619716926501,
+          "stop" : 1619716930574,
+          "duration" : 4073
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c42a399046bde01b.json",
+  "parameterValues" : [ ]
+}
