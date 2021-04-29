@@ -1,0 +1,57 @@
+{
+  "uid" : "31bec26671c07d6f",
+  "name" : "fourthTest()",
+  "fullName" : "com.test.j4test.SquareFactorySecondTest.fourthTest",
+  "historyId" : "8226ffa5b7083b107135d41a7f142b8c",
+  "time" : {
+    "start" : 1619716934945,
+    "stop" : 1619716939022,
+    "duration" : 4077
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az269-150"
+  }, {
+    "name" : "thread",
+    "value" : "1801@fv-az269-150.ForkJoinPool-1-worker-3(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.test.j4test.SquareFactorySecondTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.test.j4test.SquareFactorySecondTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "fourthTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.test.j4test.SquareFactorySecondTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31bec26671c07d6f.json",
+  "parameterValues" : [ ]
+}
