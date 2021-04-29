@@ -4,7 +4,6 @@ import com.test.j4test.Hooks.Companion.AT_MOST_SECONDS
 import com.test.j4test.Hooks.Companion.SECOND_CLASS_FIRST_METHOD
 import com.test.j4test.Hooks.Companion.SECOND_CLASS_SECOND_METHOD
 import org.awaitility.Awaitility
-//import org.junit.Test
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.parallel.Execution
 import org.junit.jupiter.api.parallel.ExecutionMode.CONCURRENT
