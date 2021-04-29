@@ -23,6 +23,7 @@ class Hooks {
         val THIRD_CLASS_SECOND_METHOD = "third class second method"
         val FOURTH_CLASS_FIRST_METHOD = "fourth class first method"
         val FOURTH_CLASS_SECOND_METHOD = "fourth class second method"
+        val FOURTH_CLASS_THIRD_METHOD = "fourth class third method"
         val POLL_INTERVAL_MILLIS = 2000L
     }
 }
