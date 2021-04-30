@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "9887d271e98cb23bd7be5a3cd1605cc7",
+    "name" : "com.test.j4test.SquareFactoryFourthTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "f534390304cdb7b3a128e79ed7ca15e3",
+    "name" : "com.test.j4test.SquareFactoryThirdTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "cd2086e75539e4c6c6ec02dc65fdd20d",
+    "name" : "com.test.j4test.SquareFactorySecondTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a82476798f59aed04ad827a17c77d800",
+    "name" : "com.test.j4test.SquareFactoryFirstTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}
