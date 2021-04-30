@@ -2,11 +2,13 @@ package com.test.j4test
 
 import org.awaitility.Awaitility
 import org.junit.BeforeClass
+import org.junit.jupiter.api.BeforeAll
 import java.time.Duration
 import java.util.concurrent.TimeUnit
 
 class Hooks {
     @BeforeClass
+    @BeforeAll
     fun beforeClass() {
         Awaitility.setDefaultPollInterval(POLL_INTERVAL_MILLIS, TimeUnit.MILLISECONDS)
         Awaitility.setDefaultPollDelay(Duration.ZERO)
@@ -21,12 +23,7 @@ class Hooks {
         val THIRD_CLASS_SECOND_METHOD = "third class second method"
         val FOURTH_CLASS_FIRST_METHOD = "fourth class first method"
         val FOURTH_CLASS_SECOND_METHOD = "fourth class second method"
-        val AT_MOST_SECONDS = 4L
+        val FOURTH_CLASS_THIRD_METHOD = "fourth class third method"
         val POLL_INTERVAL_MILLIS = 2000L
-
-        @JvmStatic
-        fun printCurrentThreadName(data: String) {
-            println(Thread.currentThread().getName() + if ("" != data) " " + data else "")
-        }
     }
 }
