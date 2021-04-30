@@ -1,0 +1,168 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.test.j4test",
+    "children" : [ {
+      "name" : "SquareFactoryThirdTest",
+      "children" : [ {
+        "name" : "fifthTest",
+        "uid" : "587f4c8fea65da3",
+        "parentUid" : "94012ee185ca057c67755869fbf94806",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755414951,
+          "stop" : 1619755418982,
+          "duration" : 4031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "sixthTest",
+        "uid" : "5db15f354eb027f",
+        "parentUid" : "94012ee185ca057c67755869fbf94806",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755419398,
+          "stop" : 1619755423445,
+          "duration" : 4047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94012ee185ca057c67755869fbf94806"
+    }, {
+      "name" : "SquareFactoryFourthTest",
+      "children" : [ {
+        "name" : "ninthTest",
+        "uid" : "a6da82b60602c072",
+        "parentUid" : "38062ffb0a85607e5dd41a044db8ba69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755414963,
+          "stop" : 1619755419016,
+          "duration" : 4053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "eightTest",
+        "uid" : "ed6bcf151a531a9",
+        "parentUid" : "38062ffb0a85607e5dd41a044db8ba69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755419472,
+          "stop" : 1619755423523,
+          "duration" : 4051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "seventhTest",
+        "uid" : "6e38d273887a958a",
+        "parentUid" : "38062ffb0a85607e5dd41a044db8ba69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755423589,
+          "stop" : 1619755427637,
+          "duration" : 4048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "seventhTest",
+        "uid" : "9537108d20cda357",
+        "parentUid" : "38062ffb0a85607e5dd41a044db8ba69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755427809,
+          "stop" : 1619755431886,
+          "duration" : 4077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "eightTest",
+        "uid" : "e5c13d4775066b40",
+        "parentUid" : "38062ffb0a85607e5dd41a044db8ba69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755431889,
+          "stop" : 1619755435924,
+          "duration" : 4035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38062ffb0a85607e5dd41a044db8ba69"
+    }, {
+      "name" : "SquareFactorySecondTest",
+      "children" : [ {
+        "name" : "fourthTest",
+        "uid" : "d4d338cc0c344dee",
+        "parentUid" : "450b97ad82be889935d69f3d8c7db3ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755423635,
+          "stop" : 1619755427714,
+          "duration" : 4079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "thirdTest",
+        "uid" : "60ec688a0acf541e",
+        "parentUid" : "450b97ad82be889935d69f3d8c7db3ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755423637,
+          "stop" : 1619755427716,
+          "duration" : 4079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "450b97ad82be889935d69f3d8c7db3ef"
+    }, {
+      "name" : "SquareFactoryFirstTest",
+      "children" : [ {
+        "name" : "fsecondTest",
+        "uid" : "c28ec7132f9cec1b",
+        "parentUid" : "9e5be6bfc6cc76c04008756fc40fec19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755427776,
+          "stop" : 1619755431883,
+          "duration" : 4107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "firstTest",
+        "uid" : "f2d6658c6509dec",
+        "parentUid" : "9e5be6bfc6cc76c04008756fc40fec19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619755431890,
+          "stop" : 1619755435924,
+          "duration" : 4034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e5be6bfc6cc76c04008756fc40fec19"
+    } ],
+    "uid" : "com.test.j4test"
+  } ],
+  "name" : "packages"
+}
